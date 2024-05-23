@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-section {
+  background-color: black;
+  background: url("https://res.cloudinary.com/dv0oedkxm/image/upload/v1715463215/signin__mobile_jgbctg.png");
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.register-button {
+  background: linear-gradient(#2a6bf2, #2d3794);
+}
+
+@media screen and (min-width: 1028px) {
+  .login-section {
+    background: url("https://res.cloudinary.com/dv0oedkxm/image/upload/v1715462087/singin_lzpfka.png");
+    background-size: cover;
+  }
+
+  .register-section {
+    background: url("https://res.cloudinary.com/dv0oedkxm/image/upload/v1715462085/register_oewoy2.png");
+    background-size: cover;
+  }
+}
+
+.karnataka-gradient {
+  background: linear-gradient(#fbc400, #ff1c00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-bg {
+  background: url("https://res.cloudinary.com/dv0oedkxm/image/upload/v1715476380/homepage_bg_oy4aki.png");
+  background-size: cover;
+}
+
+.pink-gradient {
+  background: linear-gradient(to right, #f22ac6, #862d94) !important;
+}
+
+.blue-gradient {
+  background: linear-gradient(to right, #43b2f0, #2a6bf2);
+}
+
+.input-text {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 14px;
+  color: white;
+  outline: none;
+}
+
+.input-text::placeholder {
+  color: white;
+}
+
+.form-bg {
+  background: linear-gradient(#2c58d0, #2d3c9d);
+
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.layer-2 {
+  background: url("https://res.cloudinary.com/dv0oedkxm/image/upload/v1715472591/rangoli_2_waeoki.png");
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  background-size: cover;
+  left: 0;
+}
+
+.layer-3 {
+  background: #00000050;
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-size: cover;
+  left: 0;
+}
